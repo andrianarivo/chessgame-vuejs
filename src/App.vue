@@ -1,15 +1,14 @@
 <template>
-  <chessboard class="chessentry"/>
+  <app-section/>
 </template>
 
 <script>
-import {chessboard} from 'vue-chessboard'
-import 'vue-chessboard/dist/vue-chessboard.css'
+import AppSection from './components/AppSection.vue'
 
 export default {
   name: 'App',
   components: {
-    chessboard
+    AppSection
   }
 }
 </script>
