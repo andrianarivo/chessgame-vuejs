@@ -2271,6 +2271,16 @@ check-types@^8.0.3:
   resolved "https://registry.npm.taobao.org/check-types/download/check-types-8.0.3.tgz#3356cca19c889544f2d7a95ed49ce508a0ecf552"
   integrity sha1-M1bMoZyIlUTy16le1JzlCKDs9VI=
 
+chess.js@^0.10.2:
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/chess.js/-/chess.js-0.10.3.tgz#8c3b98e8411c2ff3ab4b1fc022ddebd1ae037120"
+  integrity sha512-i51JgVM0ksFMbLJYKoDpfrcFxJHq/XQQx8NltCdfMyDv7vpU5JVzsZz1EOw7nA27eGA5t8tSxodAN+Wc704BoQ==
+
+chessground@^7.2.10:
+  version "7.9.3"
+  resolved "https://registry.yarnpkg.com/chessground/-/chessground-7.9.3.tgz#dec20a45afe439fe9ed961836a7e5a9157087141"
+  integrity sha512-6vU1q3u/69aHt/Y/UwNk9h9BxPhOuJl+xTQH/taicVZcVY7VcUEUpt+yvVGgglooPgOzM/uj2Rzv5Pcaj/R2/A==
+
 chokidar@^2.1.8:
   version "2.1.8"
   resolved "https://registry.npm.taobao.org/chokidar/download/chokidar-2.1.8.tgz?cache=0&sync_timestamp=1610721450018&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchokidar%2Fdownload%2Fchokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
@@ -8026,6 +8036,14 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
+
+vue-chessboard@^0.6.7:
+  version "0.6.7"
+  resolved "https://registry.yarnpkg.com/vue-chessboard/-/vue-chessboard-0.6.7.tgz#7e5e02d5c44a173ffbcfd97e700efde768742081"
+  integrity sha512-CPjkAdHygYdGnxjuhbmdt+BgRw26ZqcgOfXI0HJNIrdkukdFSWNSXjRFTh+C0vj988zGiBUx9MYmb8Ei6KLFHA==
+  dependencies:
+    chess.js "^0.10.2"
+    chessground "^7.2.10"
 
 vue-eslint-parser@^7.0.0:
   version "7.4.1"

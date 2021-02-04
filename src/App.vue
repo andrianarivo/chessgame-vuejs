@@ -1,28 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <chessboard class="chessentry"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import {chessboard} from 'vue-chessboard'
+import 'vue-chessboard/dist/vue-chessboard.css'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    chessboard
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+.chessentry {
+
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+
 }
+
 </style>
