@@ -6,8 +6,8 @@
     </div>
     <ol class="subtitle">
       <li>ANDRIANARIVO Nirintsoa David Stanley ISAIA5 n4</li>
-      <li>RANAIVO Mialiharisoa Murielle IGGLIA5 n</li>
-      <li>Rovasoa IGGLIA5 n</li>
+      <li>RANAIVO Mialiharisoa Murielle IGGLIA5 n9</li>
+      <li>RAKOTONIAINA Rovasoa Anjaramamy IGGLIA5 n15</li>
     </ol>
   </div>
 </template>
